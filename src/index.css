@@ -45,7 +45,6 @@ font-style: normal;
 }
 
 body{
-    overflow-x: hidden;
     background-color: #39289F;
 }
 
@@ -57,4 +56,11 @@ body{
     padding-bottom: 10px;
     transition: all;
     animation-duration: 5s;
+}
+
+.industry{
+    background-image: url('./assets/home/bg_industry.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
