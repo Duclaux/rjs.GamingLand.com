@@ -8,7 +8,7 @@ import NewsLetter from '../components/home/NewsLetter'
 
 function Index() {
   return (
-    <>
+    <div className='home'>
       <Header />
       <div className='mt-[100px] space-y-[50px] mb-[100px]'>
         <TradingGame />
@@ -17,7 +17,7 @@ function Index() {
         <Project/>
         <NewsLetter/>
       </div>
-    </>
+    </div>
   )
 }
 

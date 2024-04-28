@@ -5,6 +5,7 @@ import Joy_stick from '../../assets/home/joy_stick.png'
 import Cry from '../../assets/home/cry.png'
 import Unreal from '../../assets/home/unreal.png'
 import Unity from '../../assets/home/unity.png'
+import CustomBtn from '../global/CustomBtn'
 
 function Header() {
   return (
@@ -16,7 +17,7 @@ function Header() {
                     <h1 className='poppins-bold text-[#E87D0E] text-[17px] md:text-[20px]'>Proved By prodesigner</h1>
                     <p className='poppins-bold text-[#fff] text-[40px] md:text-[50px] mt-[17px] mb-[26px]'>Work that we<br/> produce for our<br/> clients</p>
                     <p className='poppins-medium text-[#fff] text-[16px] mb-[50px]'>Lorem Ipsum is simply dummy text of the printing and<br/> typesetting industry. Lorem Ipsum has been the industry's<br/> standard.</p>
-                    <button className='px-[30px] py-[14px] bg-gradient-to-l to-[#FA8305] from-[#FB9E3C] rounded-[40px] poppins-medium text-[#fff] text-[16px]'>Get more details</button>
+                    <CustomBtn title='Get more details'/>
                 </div>
             </div>
 
